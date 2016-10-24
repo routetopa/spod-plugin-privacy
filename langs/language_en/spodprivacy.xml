@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="spodprivacy" label="SPOD Privacy" language_tag="en" language_label="English">
+	<key name="settings_title"><value>SPOD Privacy Settings</value></key>
+	<key name="settings_heading"><value>SPOD Privacy Settings</value></key>
+	<key name="label_filter"><value>Filter</value></key>
+	<key name="description_filter"><value>controller1:action1<br/>
+controller2:action2,action3<br/>
+controller3:*</value></key>
+	<key name="label_debug"><value>Enable debug</value></key>
+	<key name="description_debug"><value></value></key>
+	<key name="preferences_submit"><value>Save settings</value></key>
+</prefix>
