@@ -88,7 +88,7 @@ class SPODPRIVACY_CLASS_EventHandler
 	    // Check if the route is locked
 	    if ( isset( $this->locked[ $controller ] ) )
 	    {
-	    	$lockedActions = explode( ',', $this->locked[ $controller ] );
+	    	$lockedActions = $this->locked[ $controller ];
 		    if ( in_array( '*', $lockedActions ) || in_array( $action, $lockedActions ) )
 		    {
 			    // Since at this point the AuthenticationException event handler
